@@ -200,6 +200,7 @@ function updateButtonStates(excludeButton = "") {
   setButtonStyles(penBtn, isPenMode);
   setButtonStyles(randomColorBtn, isRandomMode);
   setButtonStyles(darkenBtn, isDarkenMode);
+  setButtonStyles(eraserBtn, isEraserMode);
 
   //also their text content
   eraserBtn.textContent = isEraserMode ? "Eraser: ON" : "Eraser: OFF";
